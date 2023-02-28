@@ -82,7 +82,27 @@ print(listas)
 
 #Elaborar una lista de los nombres de los vehículos con un peso inferior a 2000 kilogramos. En la misma lista, la comprensión hace que los nombres clave estén todos en mayúsculas.
 
+'''
 dicc={"Sedan": 1500, "SUV": 2000, "Pickup": 2500, "Minivan": 1600, "Van": 2400, "Semi": 13600, "Bicycle": 7, "Motorcycle": 110}
 
 listas = [i.upper() for i in dicc if dicc[i] < 2000]
 print(listas)
+'''
+
+#Cree una lista idéntica a partir de la primera lista mediante la comprensión de listas
+
+'''
+lista1 = [1,2,3,4,5]
+lista2 = [i for i in lista1]
+print(lista2)
+'''
+
+#construya una lista a partir de los cuadrados de cada elemento de la lista.
+'''
+lista1 = [2,4,6,8,10]
+lista2 = [i**2 for i in lista1]
+print(lista2)
+'''
+v = "a"
+
+print(v.islower())
