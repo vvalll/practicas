@@ -29,10 +29,12 @@ def juego ():
             usuario+=1
             print("MAQUINA: ", maquina, " // JUGADOR: ", usuario)
 
-        if maquina == 3:
-            print("Gana la maquina")
-        elif usuario == 3: 
-            print("Gana el jugador, Ganaste!")
+    if maquina > usuario:
+        print("FIN: Gana la maquina")
+    elif usuario > maquina: 
+        print("FIN: Gana el jugador, Ganaste!")
+    else:
+        print("FIN: Empate")
 
 
 
