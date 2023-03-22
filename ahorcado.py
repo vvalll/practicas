@@ -3,7 +3,7 @@ import random
 palabras = ["abrigo", "clavo", "calvo", "mujer", "mujercitas", "adulto", "adultez", "comer", "cochera", "negro", 
 "hermosa", "agujero", "almuerzo", "amor", "besar", "bota", "cabeza", "coneja", "cangrejo", "denso", "decimal", "drena",
 "extra", "educar", "facil", "feo", "foca", "gato", "goma", "gratis", "hilo", "huida", "iglu", "iman", "jamon",
-"jugar", "jugo", "kilo", "lombriz", "leon", "laton", "mona", "marioneta", "multitud", "necio", "nutria", "normal", "osa", "ostra", 
+"jugar", "jugo", "kilo", "lombriz", "leon", "laton", "mona", "marioneta", "magnitud", "necio", "nutria", "normal", "osa", "ostra", 
 "oscar", "pesa", "peso", "persona", "queso", "cuestion", "quizas", "raton", "roma", "rosa", "sal", "sonrei", "sentar", "tomar",
 "tiza", "canguro", "uva", "ula", "beso", "vaso", "amigo", "yeso", "bota", "zona", "futbol", "huevo", "carne"]
 

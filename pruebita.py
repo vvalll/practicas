@@ -1,12 +1,37 @@
-def mensaje(text):
-    respuestas = {"computadora":"Con mi computadora puedo programar", 
-                  "celular": "En mi celular puedo aprender usando la app de Platzi",
-                    "cable": "¡Hay un cable en mi bota!" }
-    if text in respuestas:
-        print(respuestas[text])
-    else:
-        print(text, ": Articulo no encontrado")
-   
+'''matches = [
+  {
+    'home_team': 'Bolivia',
+    'away_team': 'Uruguay',
+    'home_team_score': 3,
+    'away_team_score': 1,
+    'home_team_result': 'Win'
+  },
+  {
+    'home_team': 'Brazil',
+    'away_team': 'Mexico',
+    'home_team_score': 1,
+    'away_team_score': 1,
+    'home_team_result': 'Draw'
+  },
+  {
+    'home_team': 'Ecuador',
+    'away_team': 'Venezuela',
+    'home_team_score': 5,
+    'away_team_score': 0,
+    'home_team_result': 'Win'
+  },
+]
 
-com = "computadora"
-ola = mensaje(com)
+ganadores = list(filter(lambda i: i['home_team_result'] == 'Win', matches))
+print(ganadores)'''
+
+
+#----
+
+def filter_by_length(words):
+   # Escribe tu solución 👇
+   return list(filter(lambda i: len(i) >= 4, words))
+
+words = ['amor', 'sol', 'piedra', 'día']
+response = filter_by_length(words)
+print(response)
